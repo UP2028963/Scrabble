@@ -1,0 +1,34 @@
+{
+  "name": "app_prog_cw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prompt-sync": "^4.2.0",
+    "regex": "^0.1.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-portsoc": "github:portsoc/eslint-config-portsoc",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "jslint": "0.12.1",
+    "package": "1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "portsoc",
+    "root": true,
+    "env": {
+      "browser": true
+    }
+  }
+}

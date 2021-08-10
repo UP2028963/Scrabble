@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Scrabble</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+
+    <h1>Scrabble Game!</h1>
+
+    <p class="keeping-score">
+        Your Score Is
+            <span id="player1Score">0</span>
+
+            <p id="result">
+            </p>
+    </p>
+
+    <p>
+        <input type="text" placeholder="Enter a Word to Check Validity" id="word-validity">
+    </p>
+    <a href="./rules.html">Click Here to see the Rules!</a>
+
+    <section class="all-tiles" id="tiles">
+    </section>
+
+   
+    <aside class="button">
+        <p>
+            Press the button to play and check word!
+        </p>
+        <button class="play-move">Play</button>
+    </aside>
+
+    <section class="player-rack">
+    </section>
+
+
+        <script src="index.mjs" type="module"></script>
+        <script src="gameplay.mjs" type="module"></script>
+</body>
